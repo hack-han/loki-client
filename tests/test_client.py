@@ -1,15 +1,3 @@
-# loki-client
-A Python client interacting with Grafana Loki.
-
-# Quickstart
-Install:
-```shell
-pip install loki-client
-```
-
-Usage:
-```python
-# example.py
 from loki_client import LokiClient
 from loki_client import SUPPORTED_DIRECTION
 
