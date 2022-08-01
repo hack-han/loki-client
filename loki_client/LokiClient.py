@@ -21,7 +21,7 @@ class LokiClient(object):
     Loki client for Python to communicate with Loki server.
     Ref: https://grafana.com/docs/loki/v2.4/api/
     """
-    def __int__(self,
+    def __init__(self,
                 url: str = "http://127.0.0.1:3100",
                 headers: dict = None,
                 disable_ssl: bool = True,
